@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "794416ffb00888e150db5b8d804b3912",
+    "packages": [
+        {
+            "name": "bryce/logger",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lushaoming/logger.git",
+                "reference": "4684af767d25ab00f2965c9b8b268324c00c22a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lushaoming/logger/zipball/4684af767d25ab00f2965c9b8b268324c00c22a0",
+                "reference": "4684af767d25ab00f2965c9b8b268324c00c22a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bryce\\Logger\\": "src/Bryce/Logger"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bryce",
+                    "email": "lushaoming6@gmail.com"
+                }
+            ],
+            "description": "Logger for Laravel 5",
+            "time": "2019-12-26T08:17:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
