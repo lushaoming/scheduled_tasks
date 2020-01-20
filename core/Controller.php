@@ -5,7 +5,9 @@
  */
 namespace Scheduled\Core;
 
-abstract class Controller
+use Scheduled\Facade\IController;
+
+abstract class Controller implements IController
 {
     abstract public function main($argv): int;
 }

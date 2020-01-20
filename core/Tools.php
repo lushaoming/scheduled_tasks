@@ -18,6 +18,6 @@ class Tools
     public static function writeLog($data, $level = 1)
     {
         if (is_array($data)) $data = json_encode($data);
-        Logger::init(['file' => LOG_FILE])->write($data, $level);
+        Logger::init(['file' => BASE_CONFIG['log_file']])->write($data, $level);
     }
 }
